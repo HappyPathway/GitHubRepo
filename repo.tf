@@ -1,6 +1,6 @@
 resource "github_repository" "repo" {
   name        = "${var.repo_name}"
-  description = "${var.desciption}"
+  description = "${var.description}"
   homepage_url = "${var.homepage}"
   private = "${var.private}"
   gitignore_template = "${var.gitignore_template}"
