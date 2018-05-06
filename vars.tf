@@ -1,5 +1,5 @@
 variable "repo_name" {}
-variable "desciption" {}
+variable "description" {}
 variable "homepage" {}
 variable "private" {
     default = true
