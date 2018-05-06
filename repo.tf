@@ -7,5 +7,4 @@ resource "github_repository" "repo" {
   license_template = "${var.license_template}"
   has_wiki = "${var.has_wiki}"
   has_issues = "${var.has_issues}"
-  default_branch = "${var.default_branch}"
 }
