@@ -6,7 +6,7 @@ variable "private" {
 }
 
 variable "gitignore_template" {
-    default = "Python"
+    default = "Terraform"
 }
 
 variable "license_template" {
